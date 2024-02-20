@@ -51,6 +51,7 @@ nav a{
     padding: 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 .banner .pp{
     width: 500px
@@ -63,13 +64,13 @@ nav a{
 .banner-name{
     color: #181818;
     font-size: 85px;
-    margin-top: 5px;
+    margin-top: 0px;
     margin-bottom: 10px;
 }
 .banner-des{
     margin-top: 5px;
- 
+    text-align: left;
 }
 .banner-content{
-    max-width: 1100px;
+    max-width: 600px;
 }
