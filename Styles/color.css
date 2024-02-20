@@ -1,0 +1,20 @@
+/* Font Family Add */
+body{
+  font-family: "Open Sans", sans-serif;
+}
+
+/* Nav Related Style */
+.nav-title{
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+}
+.primary-color{
+    color: #FD6E0A;
+}
+nav {
+    display:flex
+}
+nav >a{
+    text-decoration: none;
+}
