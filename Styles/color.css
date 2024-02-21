@@ -105,6 +105,9 @@ main {
     max-width: 1200px;
     margin: 0px auto;
 }
+main section{
+    margin-top: 80px;
+}
 .about {
     padding: 120px;
     border-radius: 10px;
@@ -154,4 +157,14 @@ main {
 }
 .skills-description{
     color: rgb(116, 114, 114);
+}
+
+/* Resume Section */
+.resume-column-title{
+    font-size: 26px;
+    font-weight: 700px;
+    color: #181818;
+}
+.resume-container{
+    display: flex;
 }
