@@ -133,5 +133,20 @@ main {
     text-align: center;
 }
 #S2{
-    padding: 0px 120px 100px 120px
+    padding: 0px 120px 100px 0px
+}
+
+/* Skills Related Style */
+.skills-container{
+    display: flex;
+}
+.skills{
+    padding: 30px;
+    gap: 30px
+}
+.skills-title{
+
+}
+.skills-description{
+    
 }
