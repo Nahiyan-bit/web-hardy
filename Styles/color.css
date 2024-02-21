@@ -133,20 +133,25 @@ main {
     text-align: center;
 }
 #S2{
-    padding: 0px 120px 100px 0px
+    padding: 50px 100px;
 }
 
 /* Skills Related Style */
 .skills-container{
     display: flex;
+    gap: 50px
 }
 .skills{
     padding: 30px;
-    gap: 30px
-}
-.skills-title{
+    border-radius: 10px;
+    background-color: hsl(25, 62%, 92%);
+    box-shadow: 0px 3px 8px 3px #ccc2c2;
 
 }
+.skills-title{
+    font-size: 22px;
+    color: #181818;
+}
 .skills-description{
-    
+    color: rgb(116, 114, 114);
 }
