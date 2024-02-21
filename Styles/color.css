@@ -109,7 +109,7 @@ main {
     padding: 120px;
     border-radius: 10px;
     background-color: hsl(25, 62%, 92%);
-    margin: 130px 0px;
+    margin: 100px 0px;
 }
 .about-info-container {
     display: flex;
@@ -128,4 +128,10 @@ main {
     font-size: 18px;
     font-weight: bold;
     padding-top: 5px;
+}
+.section-description{
+    text-align: center;
+}
+#S2{
+    padding: 0px 120px 100px 120px
 }
