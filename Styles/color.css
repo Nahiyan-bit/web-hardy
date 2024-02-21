@@ -1,8 +1,9 @@
 /* Font Family Add, Shared style */
-body{
-  font-family: "Open Sans", sans-serif;
+body {
+    font-family: "Open Sans", sans-serif;
 }
-.btn-color{
+
+.btn-color {
     background-color: #FD6E0A;
     border-radius: 5px;
     border: 0;
@@ -11,85 +12,120 @@ body{
     font-weight: 600;
     padding: 12px;
 }
-.section-title{
+
+.section-title {
     color: #181818;
     font-size: 35px;
     font-weight: 700;
     text-align: center;
 }
-.section-descrip{
-    color: rgb(116, 114, 114)
-    font-size: 18px;
+
+.section-descrip {
+    color: rgb(116, 114, 114) font-size: 18px;
     text-align: center;
 }
 
 /* Nav Related Style */
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0 150px;
 }
-.nav-title{
+
+.nav-title {
     color: #181818;
     font-size: 45px;
     font-weight: 800;
 }
-.primary-color{
+
+.primary-color {
     color: #FD6E0A;
 }
-nav > ul{
+
+nav>ul {
     display: flex;
     align-items: center;
 }
-nav li{
+
+nav li {
     list-style: none;
     margin-right: 50px;
     font-weight: bold;
 
 }
-nav a{
+
+nav a {
     text-decoration: none;
-    color:rgb(116, 114, 114)
+    color: rgb(116, 114, 114)
 }
-.header{
-    background-color: #FFF8F3;
+
+.header {
+    background-color: hsl(25, 62%, 92%);
     background-image: url('../images/header_bg.png');
     background-repeat: no-repeat;
     background-position: right bottom;
 }
-.banner{
+
+.banner {
     padding: 0px 150px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.banner .pp{
+
+.banner .pp {
     width: 500px
 }
-.banner-welcome{
+
+.banner-welcome {
     font-size: 45px;
     color: #181818;
     margin-bottom: 0px;
 }
-.banner-name{
+
+.banner-name {
     color: #181818;
     font-size: 85px;
     margin-top: 0px;
     margin-bottom: 10px;
 }
-.banner-des{
+
+.banner-des {
     margin-top: 5px;
     text-align: left;
 }
-.banner-content{
+
+.banner-content {
     max-width: 600px;
 }
 
 /* About Section */
-.about{
-    padding: 130px;
+main {
+    max-width: 1200px;
+    margin: 0px auto;
+}
+.about {
+    padding: 120px;
     border-radius: 10px;
-    background-color: #FFF8F3;
+    background-color: hsl(25, 62%, 92%);
     margin: 130px 0px;
+}
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+.about-info {
+    text-align: center;
+}
+.info-title {
+    color: rgb(116, 114, 114);
+    font-size: 16px;
+    font-weight: normal;
+    padding-bottom: 0px;
+}
+.info-description {
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 5px;
 }
